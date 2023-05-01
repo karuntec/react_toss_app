@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #f9d423;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 80vw;
+  max-width: 606px;
+  height: 70vh;
+}
+
+.heading {
+  font-size: 32px;
+  font-family: Roboto;
+  text-align: center;
+  color: #a35200;
+}
+
+.paragraph {
+  font-size: 28px;
+  font-family: Roboto;
+  text-align: center;
+  color: #334155;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin-top: 15px;
+  height: 40px;
+  width: 125px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 8px;
+  cursor: pointer;
+  border-width: 0px;
+  border-color: none;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.result {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #475569;
+  margin-right: 14px;
+}
+
+.res-img {
+  width: 150px;
+  height: 150px;
+}
